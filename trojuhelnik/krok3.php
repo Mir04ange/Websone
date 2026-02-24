@@ -8,7 +8,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 <!DOCTYPE html>
 <html lang="cs">
-<head><meta charset="UTF-8"><title>Trojúhelník - Krok 3</title></head>
+<head><link rel="stylesheet" href="../index.css">
+<meta charset="UTF-8"><title>Trojúhelník - Krok 3</title></head>
 <body>
     <h1>Trojúhelník - Krok 3: Test</h1>
     <form action="vysledek.php" method="post">

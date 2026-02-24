@@ -4,7 +4,9 @@ session_unset();
 ?>
 <!DOCTYPE html>
 <html lang="cs">
-<head><meta charset="UTF-8"><title>Studium - Krok 1</title></head>
+<head><meta charset="UTF-8"><title>Studium - Krok 1</title>
+<link rel="stylesheet" href="../index.css">
+</head>
 <body>
     <h1>Studium - Krok 1: Obor</h1>
     <form action="krok2.php" method="post">

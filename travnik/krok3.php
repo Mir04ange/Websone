@@ -13,7 +13,8 @@ if (!isset($_SESSION['has_garage']) || !$_SESSION['has_garage']) {
 ?>
 <!DOCTYPE html>
 <html lang="cs">
-<head><meta charset="UTF-8"><title>Trávník - Krok 3</title></head>
+<head><link rel="stylesheet" href="../index.css">
+<meta charset="UTF-8"><title>Trávník - Krok 3</title></head>
 <body>
     <h1>Trávník - Krok 3: Garáž</h1>
     <form action="vysledek.php" method="post">

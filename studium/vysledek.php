@@ -12,7 +12,8 @@ $prumer = isset($_SESSION['prumer']) ? $_SESSION['prumer'] : 0;
 ?>
 <!DOCTYPE html>
 <html lang="cs">
-<head><meta charset="UTF-8"><title>Studium - Výsledek</title></head>
+<head><link rel="stylesheet" href="../index.css">
+<meta charset="UTF-8"><title>Studium - Výsledek</title></head>
 <body>
     <h1>Studium - Výsledek</h1>
     <p>Studijní obor: <?php echo htmlspecialchars($obor); ?></p>

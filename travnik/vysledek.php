@@ -20,7 +20,8 @@ $plocha_travniku = $plocha_pozemku - $plocha_domu - $plocha_garaze;
 ?>
 <!DOCTYPE html>
 <html lang="cs">
-<head><meta charset="UTF-8"><title>Trávník - Výsledek</title></head>
+<head><link rel="stylesheet" href="../index.css">
+<meta charset="UTF-8"><title>Trávník - Výsledek</title></head>
 <body>
     <h1>Trávník - Výsledek</h1>
     <p>Plocha pozemku: <?php echo $plocha_pozemku; ?> m²</p>

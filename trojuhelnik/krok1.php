@@ -4,7 +4,8 @@ session_unset();
 ?>
 <!DOCTYPE html>
 <html lang="cs">
-<head><meta charset="UTF-8"><title>Trojúhelník - Krok 1</title></head>
+<head><link rel="stylesheet" href="../index.css">
+<meta charset="UTF-8"><title>Trojúhelník - Krok 1</title></head>
 <body>
     <h1>Trojúhelník - Krok 1: Operace</h1>
     <form action="krok2.php" method="post">

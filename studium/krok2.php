@@ -6,7 +6,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 <!DOCTYPE html>
 <html lang="cs">
-<head><meta charset="UTF-8"><title>Studium - Krok 2</title></head>
+<head>
+<link rel="stylesheet" href="../index.css">
+    
+<meta charset="UTF-8"><title>Studium - Krok 2</title></head>
 <body>
     <h1>Studium - Krok 2: Typ plánu</h1>
     <form action="krok3.php" method="post">

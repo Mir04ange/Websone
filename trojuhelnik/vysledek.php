@@ -16,7 +16,8 @@ function is_triangle($a, $b, $c) {
 ?>
 <!DOCTYPE html>
 <html lang="cs">
-<head><meta charset="UTF-8"><title>Trojúhelník - Výsledek</title></head>
+<head><link rel="stylesheet" href="../index.css">
+<meta charset="UTF-8"><title>Trojúhelník - Výsledek</title></head>
 <body>
     <h1>Trojúhelník - Výsledek</h1>
     <p>Zadané strany: a=<?php echo $a; ?>, b=<?php echo $b; ?>, c=<?php echo $c; ?></p>
