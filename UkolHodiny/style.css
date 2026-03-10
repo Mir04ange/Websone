@@ -1,0 +1,24 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-bottom: 2rem; }
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd; }
+  .btn-primary:hover {
+    background-color: #0257d5; }
+
+.summary-list {
+  list-style: none;
+  padding: 0; }
+  .summary-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between; }
+
+/*# sourceMappingURL=style.css.map */
